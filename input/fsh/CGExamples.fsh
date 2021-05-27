@@ -507,8 +507,8 @@ InstanceOf: TherapeuticImplication
 Description: "Example of a Therapeutic Implication from eMERGE"
 * id = "TxImp01"
 //* meta.profile = "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/therapeutic-implication"
-* category.coding = http://terminology.hl7.org/CodeSystem/observation-category#laboratory
 * code = TbdCodesCS#therapeutic-implication
+* category.coding = http://terminology.hl7.org/CodeSystem/observation-category#laboratory
 * component[medication-assessed].valueCodeableConcept = MetaT#C0070166 "clopidogrel"
 * component[effect-medication-metabolism].valueCodeableConcept = LNC#LA9657-3 "Poor metabolizer"
 * component[conclusion-string].valueString = "For clopidogrel, individuals with this diplotype are expected to have significantly reduced platelet inhibition, increased residual platelet aggregation and increased risk for adverse cardiovascular events in response to clopidogrel. Alternative antiplatelet therapy (if no contraindication) is recommended. Refer to current guidelines for dosage and recommendations at https://cpicpgx.org/guidelines/guideline- for-clopidogrel-and-cyp2c19/"
