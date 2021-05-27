@@ -7,7 +7,8 @@ Description: "Code System for specific types of relationships"
 * #Indeterminate "Indeterminate" "Phase is unable to be determined"
 * #Unknown "Unknown" "Phase is unknown"
 
-CodeSystem: TbdCodes
+CodeSystem: TbdCodesCS
+Id: tbd-codes-cs
 Title: "ToBeDeterminedCodes ('TbdCodes')"
 Description: "These codes are currently 'TBD-LOINC' codes. The CG WG is requesting formal LOINC codes."
 

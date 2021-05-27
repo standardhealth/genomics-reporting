@@ -46,7 +46,7 @@ Description:    "Base profile that defines characteristics shared by all genetic
 * component contains conclusion-string 0..1
 * component[conclusion-string] ^short = "Clinical conclusion (interpretation) of the observation"
 * component[conclusion-string] ^definition = "Clinical conclusion (interpretation) of the observation"
-* component[conclusion-string].code = TbdCodes#conclusion-string
+* component[conclusion-string].code = TbdCodesCS#conclusion-string
 * component[conclusion-string].value[x] only string
 
 Profile:        OverallInterpretation
@@ -151,7 +151,7 @@ Title:          "Grouper"
 Description:    "Organizes information within a genomic report."
 
 * extension contains RecommendedAction named RecommendedAction 0..*
-* code = TbdCodes#grouper
+* code = TbdCodesCS#grouper
 * hasMember ^slicing.discriminator.type = #profile
 * hasMember ^slicing.discriminator.path = "resolve()"
 * hasMember ^slicing.rules = #open
